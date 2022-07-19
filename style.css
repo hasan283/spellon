@@ -1,0 +1,467 @@
+/* Default Css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Custom Css  */
+
+/* Title  */
+.title {
+    padding: 4rem 0;
+}
+
+.title h2 {
+    color: #004750;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.title p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #646464;
+    padding-top: 1.5rem;
+}
+
+/* PayQuad Section  */
+.payQuad {
+    border: 1px solid #ddd;
+    margin: 5rem 0;
+    padding: 10rem 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 200px rgba(198, 225, 230, 0.25);
+    border-radius: 355px;
+}
+
+.payQuad-container {
+    width: 810px;
+    height: 488px;
+    border: 1px dashed #008C96;
+    border-radius: 355px;
+    position: relative;
+}
+
+.payQuad-container .reports {
+    width: 120px;
+    margin: auto;
+}
+
+.payQuad-container .lead-crm {
+    width: 120px;
+    margin: auto;
+}
+
+.payQuad-container .resident-portal {
+    width: 150px;
+    margin: auto;
+}
+
+.payQuad-container .community {
+    width: 120px;
+    margin: auto;
+}
+
+.payQuad-container .communication {
+    width: 120px;
+    margin: auto;
+}
+
+.payQuad-container .payments {
+    width: 120px;
+    margin: auto;
+}
+
+.payQuad-container .maintenance {
+    width: 120px;
+    margin: auto;
+}
+
+.payQuad-container .payQuad-photo {
+    background: #fff;
+    box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.8);
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    height: 81.68px;
+}
+
+.payQuad-container .payQuad-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #004750;
+    margin-top: 1rem;
+}
+
+.payQuad-container .info-content {
+    width: 273px;
+    text-align: center;
+    color: #646464;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.6);
+    border-radius: 10px;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.payQuad-container .info-content p {
+    color: #646464;
+}
+
+.payQuad-container .logo {
+    width: 200px;
+    margin: auto;
+}
+
+.payQuad-container .logo img {
+    margin-top: 2.5rem;
+    width: 180px;
+}
+
+@media screen and (max-width: 1024px) {
+    .payQuad {
+        border: none;
+        margin: 5rem 0;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+        border-radius: none;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .payQuad-container {
+        width: 710px;
+    }
+}
+
+@media screen and (max-width: 892px) {
+    .payQuad-container {
+        width: 650px;
+    }
+
+    .payQuad-container .payQuad-photo {
+        width: 80px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .payQuad-container {
+        width: 600px;
+    }
+
+    .payQuad-container .payQuad-photo {
+        width: 80px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .payQuad-container {
+        width: 500px;
+        height: 650px;
+    }
+
+    .payQuad-container .payQuad-photo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 10px;
+    }
+
+    .payQuad-container .reports {
+        width: 100px;
+        width: 100px;
+        left: 12%;
+        top: 2%;
+
+    }
+
+    .payQuad-container .lead-crm {
+        width: 100px;
+        top: -1%;
+        left: 43%;
+    }
+
+    .payQuad-container .resident-portal {
+        width: 100px;
+        top: 38%;
+        right: -10%;
+    }
+
+    .payQuad-container .community {
+        width: 100px;
+        bottom: 10%;
+        right: -6px;
+    }
+
+    .payQuad-container .communication {
+        width: 100px;
+    }
+
+    .payQuad-container .payments {
+        width: 100px;
+        bottom: 10%;
+        left: -6px;
+    }
+
+    .payQuad-container .maintenance {
+        width: 100px;
+        top: 40%;
+        left: -10%;
+    }
+
+    .info-container {
+        top: 30%;
+        font-size: 12px;
+    }
+
+    .info-container .info-cursor {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .payQuad-container {
+        width: 400px;
+        height: 650px;
+    }
+
+    .payQuad-container .payQuad-photo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 10px;
+    }
+
+    .payQuad-container .reports {
+        width: 100px;
+        left: 4%;
+        top: 4%;
+
+    }
+
+    .payQuad-container .lead-crm {
+        width: 100px;
+        top: -1%;
+        left: 43%;
+    }
+
+    .payQuad-container .resident-portal {
+        width: 100px;
+        top: 38%;
+        right: -12%;
+    }
+
+    .payQuad-container .community {
+        bottom: 10%;
+        right: -7%;
+    }
+
+    .payQuad-container .communication {
+        width: 100px;
+    }
+
+    .payQuad-container .payments {
+        width: 100px;
+        bottom: 10%;
+        left: -7%;
+    }
+
+    .payQuad-container .maintenance {
+        width: 100px;
+        top: 40%;
+        left: -12%;
+    }
+
+    .info-container {
+        top: 30%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .title h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .title p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .payQuad-container {
+        width: 300px;
+        height: 650px;
+    }
+
+    .payQuad-container .payQuad-photo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 10px;
+    }
+
+    .payQuad-container .reports {
+        width: 80px;
+        height: 80px;
+        left: 4%;
+        top: 0;
+
+    }
+
+    .payQuad-container .lead-crm {
+        width: 80px;
+        height: 80px;
+        top: 0;
+        left: 56%;
+    }
+
+    .payQuad-container .resident-portal {
+        width: 80px;
+        height: 80px;
+        right: -14%;
+    }
+
+    .payQuad-container .community {
+        width: 80px;
+        height: 80px;
+        bottom: 10%;
+        right: -14%;
+    }
+
+    .payQuad-container .communication {
+        width: 80px;
+        height: 80px;
+    }
+
+    .payQuad-container .payments {
+        width: 80px;
+        height: 80px;
+        bottom: 10%;
+        left: -14%;
+    }
+
+    .payQuad-container .maintenance {
+        width: 80px;
+        height: 80px;
+        top: 40%;
+        left: -12%;
+    }
+
+    .info-container {
+        top: 20%;
+    }
+
+    .payQuad-container .info-content {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 468px) {
+    .payQuad-container {
+        width: 200px;
+        height: 400px;
+    }
+
+    .payQuad-container .payQuad-photo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .payQuad-container .payQuad-title {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .payQuad-container .reports {
+        left: -18%;
+        top: 6%;
+    }
+
+    .payQuad-container .lead-crm {
+        top: -17px;
+        left: 2%;
+    }
+
+    .payQuad-container .resident-portal {
+        right: -12%;
+        top: 5%;
+    }
+
+    .payQuad-container .community {
+        width: 80px;
+        right: -20%;
+        bottom: 23%;
+    }
+
+    .payQuad-container .communication {
+        bottom: -4%;
+        left: 75%;
+    }
+
+    .payQuad-container .payments {
+        left: -5%;
+        bottom: -9%;
+    }
+
+    .payQuad-container .maintenance {
+        left: -20%;
+        top: 57%;
+    }
+
+    .payQuad-container .info-content {
+        width: 180px;
+    }
+
+    .payQuad-container .logo {
+        width: 100px;
+    }
+
+    .payQuad-container .logo img {
+        width: 100px;
+    }
+}
